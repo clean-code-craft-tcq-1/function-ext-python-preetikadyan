@@ -1,4 +1,4 @@
-
+from report_battery_parameters import *
 
 def raise_alert_for_battery_parameters(Battery_Life_Parameters,lang):
      battery_parameters = report_battery_parameters(Battery_Life_Parameters,lang)
