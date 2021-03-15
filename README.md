@@ -15,6 +15,13 @@ Extension 2: Support a language in addition to English
 
 Our market has expanded to German-speaking countries! Switch the language of the printed messages based on a global variable.
 
+Implementation: Implement accumulator and collector
+
+The method report_battery_parameters(Battery_Life_Parameters,Lang) returns two dictionaries i.e., parameters_alert_dict(specify the battery paramter and the corresponding alert) and parameters_action_dict(apecify the battery parameter and if any corresponding action is required or not).
+
+![image](https://user-images.githubusercontent.com/13776900/111180934-7c9a1b00-85d3-11eb-8f62-ef694404a030.png)
+
+
 
 
 # Programming Paradigms
