@@ -1,11 +1,11 @@
 from report_battery_parameters import *
 
+lang_provided = ['EN','DE']
+
 def raise_alert_for_battery_parameters(Battery_Life_Parameters,lang):
      
-     if lang == 'DE' :
-        battery_parameters_collect,battery_parameters_action = report_battery_parameters(Battery_Life_Parameters,'DE')
-     else:
-        battery_parameters_collect,battery_parameters_action = report_battery_parameters(Battery_Life_Parameters,'EN')
+     for lang in lang_provided:
+       battery_parameters_collect,battery_parameters_action = report_battery_parameters(Battery_Life_Parameters,lang)
      
      print("---------Battery Parameters Alert--------\n")
      print("Language selected:",lang,"\n")
